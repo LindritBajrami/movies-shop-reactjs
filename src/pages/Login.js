@@ -18,7 +18,7 @@ function Login() {
 
     if(ls_users.length) {
       setLoggedIn(ls_users[0])
-      window.location.href = 'http://localhost:3000/dashboard'
+      window.location.href = '/dashboard'
     } else {
       alert('Invalid credentials or/and user does not exist')
     }
