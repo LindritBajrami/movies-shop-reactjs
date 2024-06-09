@@ -12,13 +12,13 @@ function Header() {
   const handleLogout = e => {
     e.preventDefault()
     setUser(undefined)
-    window.location.href = 'http://localhost:3000/'
+    window.location.href = '/'
   }
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="/">Movie Shop</Navbar.Brand>
+        <Navbar.Brand href="/">Movies Shop</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
