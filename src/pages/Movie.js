@@ -3,8 +3,6 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import { Container, Image } from 'react-bootstrap'
 import { useParams } from 'react-router-dom'
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 
 function Movie() {
   const {id} = useParams()
