@@ -14,7 +14,7 @@ function LatestMovies() {
                 setLatestMovies(response.data.results.slice(0, 12))
             }
         })
-    })
+    }, [])
 
 
   return (
