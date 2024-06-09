@@ -79,7 +79,7 @@ function Movie() {
             </table>
             <p className="my-5">{movie.overview}</p>
             <div className="d-flex justify-content-start ">
-            <a href="/movies" className="btn btn-outline-secondary me-2"><i class="bi bi-arrow-left"></i> Return to Movies"</a>
+            <a href="/movies" className="btn btn-outline-secondary me-2"><i class="bi bi-arrow-left"></i> Return to Movies</a>
               <input type="number" value={qty} onChange={(e) => setQty(parseInt(e.target.value))} className=" me-2 form-control" style={{width:"80px"}} />
               <button className="btn btn-outline-primary me-2" onClick={handleAddToCart}><i class="bi bi-cart"></i></button>
               <button className="btn btn-outline-danger" onClick={handleAddToFavourites}><i class="bi bi-heart"></i></button>
