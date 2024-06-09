@@ -25,7 +25,7 @@ function Register() {
       setUsers([user])
     }
 
-    window.location.href = 'http://localhost:3000/login'
+    window.location.href = '/login'
   }
 
   return (
