@@ -1,4 +1,4 @@
-# City Weather
+# Movies Shop
 
 ## Overview
 This movie app allows users to explore a vast collection of movies using the [The Movie Database (TMDb) API](https://api.themoviedb.org). Built with HTML, CSS, JavaScript, and React, the app features paginated movie listings, a search functionality, a favorite movies section, detailed movie information, and user authentication through registration and login, with credentials stored in web local storage.
